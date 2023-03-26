@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1051</width>
+    <height>574</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#VideoStream{
+	background-color:&quot;lightblue&quot;;
+}
+#DataSet{
+	background-color:&quot;lightblue&quot;;
+}
+#Dialog{
+	background-color: &quot;white&quot;;
+}
+#QPushButton::cliked{
+	background-color:&quot;blue&quot;;
+}</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-630</x>
+     <y>-10</y>
+     <width>1721</width>
+     <height>1041</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../Downloads/mycctv.jpg</pixmap>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="VideoStream">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>150</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Video Streamer</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="DataSet">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>350</y>
+     <width>141</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Data Set</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
